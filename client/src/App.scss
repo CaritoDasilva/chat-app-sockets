@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 60%;
+  padding: 9px;
+  form {
+    display: flex;
+    flex-direction: column;
+    .submit-btn {
+      margin-top: 2%;
+    }
+  }
+}
+
+.container-users-list {
+  display: flex;
+
+  .connectionIcon {
+    width: 20px;
+  }
+}
+
